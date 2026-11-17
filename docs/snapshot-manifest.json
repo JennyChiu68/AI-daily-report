@@ -1,8 +1,7 @@
 {
   "baselineDate": "2026-11-17",
   "baselineSourceCommit": "b3ec99cafc18aedef19864ff34d98005d32ef308",
-  "requirementsVersion": "1.1",
-  "targetSystem": "金十现有内容管理后台",
+  "requirementsVersion": "2.0",
   "files": [
     {
       "path": ".gitignore",
@@ -16,8 +15,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4357,
-      "sha256": "1d09be7a008dee3fc3d26609735cb73fb8e998cccabf459b88c98c8141499209"
+      "bytes": 1033,
+      "sha256": "d12bd53ffef3a92dda1a4d1ab27c772e7f18051410c4f0e279cb0e8db8ddc308"
     },
     {
       "path": "app/ExportButton.tsx",
@@ -75,24 +74,24 @@
       "sha256": "9a5b564c2e73bf66c86adda0b39b399c2d9b2b8272fc4431d95ded8211b1ead7"
     },
     {
-      "path": "docs/requirements/AI前沿日报接入金十后台功能需求V1.1.docx",
-      "bytes": 51446,
-      "sha256": "17b410d4d3e489e4fcf2599ea54a771fa6ec9039e61e6e692d2bf1c89ae48195"
+      "path": "docs/requirements/AI前沿日报本地落地需求.docx",
+      "bytes": 37858,
+      "sha256": "f573fcf0911776cc62ac74024f2e186a4ea1f0a9729add45807f4156e20195d4"
     },
     {
       "path": "docs/requirements/需求提交摘要.txt",
-      "bytes": 1230,
-      "sha256": "04e377c4241eff804df484a44b651150d5310aa28642d29fdf1491036e7470df"
-    },
-    {
-      "path": "drizzle/meta/_journal.json",
-      "bytes": 61,
-      "sha256": "90cb374e093894d0efce6f1830d873a42aadd8ba49d2f024495e5cb2e1c8c303"
+      "bytes": 1295,
+      "sha256": "77edcda7629461e4361ff75c9785d050f4b3f948f7a29e75bf5d53349fe89e72"
     },
     {
       "path": "drizzle.config.ts",
       "bytes": 148,
       "sha256": "af081f7384aaeb0082cf422e29f139d137ca2f6a57c69b2c37b9fb1f8479867b"
+    },
+    {
+      "path": "drizzle/meta/_journal.json",
+      "bytes": 61,
+      "sha256": "90cb374e093894d0efce6f1830d873a42aadd8ba49d2f024495e5cb2e1c8c303"
     },
     {
       "path": "eslint.config.mjs",
@@ -434,5 +433,6 @@
       "bytes": 1731,
       "sha256": "2ed36d7fa996e946d9d7695c5925e7760246f6bf8fa35c06f1bc515c087dc450"
     }
-  ]
+  ],
+  "scope": "本地日报生成、编辑预览与图片下载"
 }
