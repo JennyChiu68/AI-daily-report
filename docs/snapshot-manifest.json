@@ -1,7 +1,7 @@
 {
   "baselineDate": "2026-11-17",
   "baselineSourceCommit": "b3ec99cafc18aedef19864ff34d98005d32ef308",
-  "requirementsVersion": "2.1",
+  "requirementsVersion": "3.0",
   "files": [
     {
       "path": ".gitignore",
@@ -15,8 +15,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 1137,
-      "sha256": "eb32c6c609ce612ecc83afdc39244d298309c25b68d33310af787d7c00b032fa"
+      "bytes": 909,
+      "sha256": "c0f6328b236c3ac502003d4b223548eecbfd830eca0eb46d290c6fbdaa5c4ece"
     },
     {
       "path": "app/ExportButton.tsx",
@@ -75,18 +75,8 @@
     },
     {
       "path": "docs/requirements/AI前沿日报本地落地需求.docx",
-      "bytes": 38042,
-      "sha256": "bd154e4a5392a0e825fff2a38a5cae2427c5d466144c11be70fbddae4fa569e5"
-    },
-    {
-      "path": "docs/requirements/SOURCE_GUIDE.txt",
-      "bytes": 3186,
-      "sha256": "b9a6322b8435e2bc4196699f03f0f36e070ffd5fbac7e964b1be0f12616411cf"
-    },
-    {
-      "path": "docs/requirements/需求提交摘要.txt",
-      "bytes": 1418,
-      "sha256": "dc88c69a6592755f0173f769ae0d09f6a91832ab7e55b57828b3e23d72422e05"
+      "bytes": 40621,
+      "sha256": "d8c9a933596324a2d93905a45fe02d133094a22ea184cfef49ea3b57676450a2"
     },
     {
       "path": "drizzle.config.ts",

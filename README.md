@@ -4,11 +4,7 @@
 
 ## 功能需求
 
-[精简需求](docs/requirements/需求提交摘要.txt) · [一页Word需求书](docs/requirements/AI前沿日报本地落地需求.docx)
-
-完整还原现有日报，支持每日生成、编辑预览和下载约1MB的完整JPG。验收以仓库中的2026年11月17日数据及图片为准。
-
-每日内容从哪里获取，见 [信源清单与采集规则](docs/requirements/SOURCE_GUIDE.txt)。
+[完整需求文档](docs/requirements/AI前沿日报本地落地需求.docx)：功能、信源网址、每日采集规则与验收标准均包含在同一份Word中。
 
 ## 运行
 
