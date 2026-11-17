@@ -1,0 +1,38 @@
+AI日报信源与采集说明
+
+一、模型脉搏常用入口
+OpenRouter 用量与模型变化：https://openrouter.ai/rankings
+Artificial Analysis 评测与更新：https://artificialanalysis.ai/ 、https://artificialanalysis.ai/changelog
+Arena 榜单与变动：https://arena.ai/leaderboard/agent 、https://arena.ai/company/leaderboard-changelog
+LLM Stats 模型指标：https://llm-stats.com/
+Kilo 任务评测：https://kilo.ai/kilobench
+Kilo 使用热度与模型排行：https://kilo.ai/leaderboard
+新模型参数、价格和开源状态：回到厂商公告、官方价目表及模型卡核对。
+以上是历史日报使用的入口，具体页面与指标以采集时可获取的官方内容为准。
+
+二、前沿快讯常用入口
+官方公告优先，以下为常用起点，可按热点扩展：
+OpenAI：https://openai.com/news/
+Anthropic：https://www.anthropic.com/news
+Google DeepMind：https://deepmind.google/blog/
+DeepSeek：https://api-docs.deepseek.com/updates/
+Qwen：https://qwen.ai/blog
+腾讯：https://www.tencent.com/zh-cn/newsroom/
+华为云：https://www.huaweicloud.com/news.html
+英伟达：https://nvidianews.nvidia.com/
+AWS：https://aws.amazon.com/blogs/machine-learning/
+开源项目与模型卡：https://huggingface.co/ 、官方GitHub仓库。
+投融资、公司与产业消息可从路透、彭博、AP等报道发现线索，能找到官方公告、财报或监管文件时优先回溯原文。
+
+三、每日采集与选取
+1. 以北京时间选择业务日期和截点，默认检查过去24小时；周一及节后覆盖休息日至截点，保留事件原始日期。
+2. 联网搜索及来源页面发现候选 → 读取原文 → 核查时间、事实和数据 → 与已采用内容去重 → 生成日报。历史research文件用于参考和去重，不能代替当日联网采集。
+3. 模型脉搏比较同一来源、同一统计窗口与口径的快照，优先新增模型、明显排名/用量变化、新评测及价格变化；无新增信息不强行填充，条数不限。
+4. 快讯按日内影响力、热度和信息增量选取；标题、导读与概览从候选重点综合提炼。不要把同一事件拆开凑条目。
+5. 每条候选保存来源名称、原文URL、原始日期与采集时间；图表另存单位、统计窗口及比较基准。读取失败或无法核实的数值不得编造，保留人工补充入口。
+6. 不使用财联社、科创板日报作为展示来源。涉及中美谈判仅采用中国官方媒体口径。模型表现保留必要来源与授权署名。
+
+四、技术实现与验收
+当前仓库提供展示与导图代码，没有可直接运行的每日采集器。技术需接入联网检索、页面读取和内容生成能力；有可用官方API/RSS时优先使用，动态页面按实际情况读取，千问等动态页面可能需要浏览器读取；具体接入方式由技术选择。
+验收时用一个新日期实际采集并生成日报，核查原文链接、数据口径与去重结果，再完成编辑预览及图片下载；不能只渲染11月17日静态样例。
+历史原文及核查案例见仓库research/，最新冻结样例为research/2026-11-17.md。

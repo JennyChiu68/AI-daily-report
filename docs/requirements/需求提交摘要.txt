@@ -14,3 +14,5 @@ AI前沿日报本地落地需求
 
 交付资料
 交付可运行程序、完整源码和简要启动说明。现有源码、品牌素材、信源记录及数据和JPG样例已在仓库中提供。
+
+信源入口与采集规则：https://github.com/JennyChiu68/AI-daily-report/blob/main/docs/requirements/SOURCE_GUIDE.txt
