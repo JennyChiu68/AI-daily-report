@@ -1,0 +1,277 @@
+{
+  "baselineDate": "2026-11-17",
+  "baselineCommit": "b3ec99cafc18aedef19864ff34d98005d32ef308",
+  "fixtureOnly": true,
+  "report": {
+    "dateTime": "2026-11-17",
+    "dateLabel": "2026年11月17日(星期二)",
+    "title": "千问4旗舰上线，OpenAI遭加州安全诉讼",
+    "summary": "截至13:42，阿里正式发布Qwen4-Max，腾讯Hy4 Flash以低价多模态服务进入日常办公；最新用量榜中，Flash首日即排第三。海外方面，加州就智能体测试安全起诉OpenAI，后者公布四家外部机构的驻场评估安排。百度AI云基础设施季度收入增长94%，书生开放科学多模态模型，苹果启动健康AI研究；模型脉搏重点看真实用量、任务费用与新模型自测。"
+  },
+  "updatedAtDisplay": "13:42（北京时间）",
+  "overview": [
+    {
+      "title": "旗舰上限与日常成本，国产模型沿两条路线推进",
+      "tag": "模型竞争",
+      "body": "千问4把长程执行、原生视觉和行业任务交付带入正式服务；混元Flash则用更小激活规模和更低调用价格覆盖日常办公。二者分别争取复杂项目与高频工作流，用量榜也开始出现新产品上线后的结构变化。",
+      "source": "Qwen / 腾讯 / OpenRouter"
+    },
+    {
+      "title": "智能体安全从内部承诺走向外部审视",
+      "tag": "治理焦点",
+      "body": "加州将OpenAI的测试安全问题诉诸法院，OpenAI则公布更深入的外部驻场评估安排。诉讼与独立评估分别从法律责任和技术证据切入，接下来值得跟踪的是防护改进、评估发现及其对模型发布节奏的影响。",
+      "source": "加州司法部 / AP / OpenAI"
+    },
+    {
+      "title": "AI投入开始同时接受收入与真实任务检验",
+      "tag": "产业应用",
+      "body": "百度AI云基础设施增长提供了企业需求的财报观察窗口；书生把科学数据和专业软件操作纳入开源模型，AWS把表格计算接入知识库。苹果通过研究检验健康AI的实际使用，这些进展让关注点从模型能说什么，进一步转向能交付什么。",
+      "source": "百度 / 上海AI实验室 / AWS / Apple"
+    }
+  ],
+  "conclusion": "新模型竞争同时围绕任务能力、调用成本和执行效率展开；应用与收入加速落地，外部安全验证也成为重要跟踪项。",
+  "modelPulses": [
+    {
+      "note": "",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "secondaryUrl": null,
+      "secondaryLabel": "",
+      "id": "openrouter-day-nov17",
+      "title": "Hy4 Flash首日冲入前三，Opus日用量增93%",
+      "subtitle": "11月16日UTC完整日榜中，Hy4 Flash首次上榜即达1.88万亿词元，排名第三；Hy4为1.1万亿，较前日下降43%。Claude Opus 5.5升至第五，用量增长93%，DeepSeek V4.1 Flash 1017继续居首。",
+      "metrics": [
+        [
+          "日用量",
+          "DeepSeek V4.1 Flash 1017",
+          "9.13",
+          "万亿词元",
+          "+27%"
+        ],
+        [
+          "日用量",
+          "DeepSeek V4.1 Flash",
+          "2.24",
+          "万亿词元",
+          "+18%"
+        ],
+        [
+          "日用量",
+          "Hy4 Flash",
+          "1.88",
+          "万亿词元",
+          "新上榜"
+        ],
+        [
+          "日用量",
+          "GLM 5.3 Flash",
+          "1.41",
+          "万亿词元",
+          "+20%"
+        ],
+        [
+          "日用量",
+          "Claude Opus 5.5",
+          "1.33",
+          "万亿词元",
+          "+93%"
+        ],
+        [
+          "日用量",
+          "GPT-6 Luna",
+          "1.24",
+          "万亿词元",
+          "+35%"
+        ],
+        [
+          "日用量",
+          "Hy4",
+          "1.10",
+          "万亿词元",
+          "−43%"
+        ]
+      ],
+      "url": "https://openrouter.ai/rankings",
+      "source": "OpenRouter · 11.16 UTC"
+    },
+    {
+      "note": "",
+      "licenseUrl": null,
+      "secondaryUrl": null,
+      "secondaryLabel": "",
+      "id": "qwen-work360-nov17",
+      "title": "千问Work360自测：任务得分提升，平均费用降58%",
+      "subtitle": "Qwen官方Work360评测覆盖721个细分行业场景：Qwen4-Max得分由前代的47.74升至52.69，单任务平均费用从26.58元降至11.16元。下表为厂商工作场景评测费用，单位为元/任务。",
+      "metrics": [
+        [
+          "Qwen3.8-Max",
+          "47.74",
+          "26.58"
+        ],
+        [
+          "Qwen4-Max",
+          "52.69",
+          "11.16"
+        ]
+      ],
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "source": "Qwen · 11.16"
+    },
+    {
+      "note": "",
+      "licenseUrl": null,
+      "secondaryUrl": "https://huggingface.co/internlm/Sage-S2.1-Flash",
+      "secondaryLabel": "开源权重",
+      "id": "sage-bench-nov17",
+      "title": "书生S2.1 Flash开源，科研与文档任务有新选择",
+      "subtitle": "研究团队公布了科学多模态模型的自测结果。这里选取机器学习工程、专业文档问答和电子表格三项任务；MLE-bench Lite报告HumanRank，其余两项为任务正确率。",
+      "metrics": [
+        [
+          "机器学习工程",
+          "MLE-bench Lite",
+          "90.3",
+          "HumanRank"
+        ],
+        [
+          "专业文档问答",
+          "OfficeQA Pro",
+          "72.2",
+          "%"
+        ],
+        [
+          "电子表格",
+          "SpreadsheetBench 2",
+          "37.1",
+          "%"
+        ]
+      ],
+      "url": "https://internlm.github.io/Sage-S2.1-Flash/",
+      "source": "上海AI实验室 · 11.16"
+    }
+  ],
+  "pulseSummary": [
+    {
+      "label": "看首日：",
+      "body": "Hy4 Flash以1.88万亿词元进入完整日榜第三，Opus 5.5用量较前日增长93%。"
+    },
+    {
+      "label": "看任务：",
+      "body": "千问Work360厂商评测中，Qwen4-Max得分52.69，单任务平均费用11.16元。"
+    },
+    {
+      "label": "看开源：",
+      "body": "书生新增科学多模态选择；科研、文档和表格任务应分别对照对应指标。"
+    }
+  ],
+  "news": [
+    {
+      "tag": "模型",
+      "dateTime": "2026-11-16",
+      "published": "11.16发布",
+      "source": "Qwen",
+      "title": "Qwen4-Max正式发布，百万上下文旗舰开放API",
+      "summary": "新模型拥有2.4万亿主干参数，每词元激活710亿参数，另设N-gram Embedding，支持原生视觉与百万词元上下文。正式版已上线千问AI平台和QwenCloud，可经API或Token Plan接入，并覆盖千问办公、Qoder和千问App；系列小尺寸模型计划陆续开源。",
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "topic": "model",
+      "importance": 1100
+    },
+    {
+      "tag": "治理",
+      "dateTime": "2026-11-16",
+      "published": "11.16起诉",
+      "source": "加州司法部 / AP",
+      "title": "加州起诉OpenAI，指控智能体测试缺乏充分安全保障",
+      "summary": "加州司法部就7月Hugging Face网络安全事件提起诉讼，指控OpenAI测试和监控措施不足、误导公众，寻求法院干预其业务做法。OpenAI回应称已发布技术及独立调查报告、加强防护，并将继续与检方合作；相关指控尚待审理。",
+      "url": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+      "topic": "governance",
+      "importance": 1070
+    },
+    {
+      "tag": "模型",
+      "dateTime": "2026-11-16",
+      "published": "11.16上线",
+      "source": "腾讯",
+      "title": "Hy4 Flash上线，API每百万输入词元0.5元",
+      "summary": "腾讯新模型总参数2240亿、激活120亿，支持多模态和百万词元上下文，已进入TokenHub、WorkBuddy、元宝、企业微信等产品。官方标价为每百万输入0.5元、输出2元、缓存命中输入0.02元；11月30日前API另有五折活动，权重开源仍属后续计划。",
+      "url": "https://www.tencent.com/zh-cn/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/",
+      "topic": "model",
+      "importance": 1040
+    },
+    {
+      "tag": "财报",
+      "dateTime": "2026-11-16",
+      "published": "11.16公布",
+      "source": "百度",
+      "title": "百度AI云基础设施季度收入82亿元，同比增长94%",
+      "summary": "百度公布第三季度业绩，AI Cloud Infra收入82亿元，同比增长94%，其中GPU云收入增长191%。公司总营收308亿元，同比下降1%；经营现金流为28亿元。AI云需求增长及更长期合同，成为业务结构变化的重要支撑。",
+      "url": "https://ir.baidu.com/news-releases/news-release-details/baidu-announces-third-quarter-2026-results",
+      "topic": "industry",
+      "importance": 1010
+    },
+    {
+      "tag": "安全",
+      "dateTime": "2026-11-16",
+      "published": "11.16公布",
+      "source": "OpenAI",
+      "title": "OpenAI引入四家独立机构，开展内部模型驻场评估",
+      "summary": "Apollo Research、METR、Transluce和Goodfire已签约参与首阶段评估，按约定范围接触内部模型、训练记录和监控系统。项目分别关注潜在偏离开发者意图的行为、最大强化学习训练运行、后训练评估质量与模型内部机制，后续将公布评估发现。",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+      "topic": "governance",
+      "importance": 980
+    },
+    {
+      "tag": "开源",
+      "dateTime": "2026-11-16",
+      "published": "11.16开源",
+      "source": "上海AI实验室",
+      "title": "书生S2.1 Flash开放权重，统一处理十余类科学输入",
+      "summary": "这款3200亿参数MoE科学多模态模型可读取分子图、晶体、蛋白质序列与结构、光谱等数据，并结合搜索、编程和专业软件推进多步骤科研任务。代码与模型权重采用MIT许可，提供标准及FP8版本，也可通过书生科学发现平台体验API。",
+      "url": "https://huggingface.co/internlm/Sage-S2.1-Flash",
+      "topic": "model",
+      "importance": 950
+    },
+    {
+      "tag": "开发",
+      "dateTime": "2026-11-13",
+      "published": "11.13更新",
+      "source": "DeepSeek",
+      "title": "DeepSeek开放应用能力API，整合搜索、文件与语音",
+      "summary": "DeepSeek将App中的联网搜索、文件输入、链接读取、语音及安全能力向开发者开放。deepseek-flash可在现有接口中启用联网工具；开启思考后，可多轮搜索和读取链接，由服务端处理工具调用与上下文拼装，减少开发者自行串联流程的工作。",
+      "url": "https://api-docs.deepseek.com/updates/?release=releasing-the-full-suite-of-application-apis",
+      "topic": "developer",
+      "importance": 920
+    },
+    {
+      "tag": "办公",
+      "dateTime": "2026-11-16",
+      "published": "11.16更新",
+      "source": "AWS",
+      "title": "Bedrock知识库新增表格搜索，可跨工作表计算后回答",
+      "summary": "Amazon Bedrock Managed Knowledge Base支持对CSV、XLSX和XLS原文件逐行查找及计算，再结合政策、备忘录等文档回答多步骤问题。计算在隔离环境执行，答案附文档引用，轨迹标明读取的工作簿，适用于需要同时核对文字规则和财务表格的查询。",
+      "url": "https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/",
+      "topic": "developer",
+      "importance": 890
+    },
+    {
+      "tag": "健康",
+      "dateTime": "2026-11-15",
+      "published": "11.15启动",
+      "source": "Apple",
+      "title": "苹果联合OpenEvidence启动健康AI研究，最多招募20万人",
+      "summary": "研究面向美国21岁及以上合格用户，通过独立App观察人们对健康AI回答的理解、信任及日常使用。参与者可自愿共享部分HealthKit数据，并查看答案对应的临床文献；研究数据不用于训练AI模型，应用定位为研究与健康信息理解工具。",
+      "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
+      "topic": "industry",
+      "importance": 860
+    },
+    {
+      "tag": "宏观",
+      "dateTime": "2026-11-16",
+      "published": "11.16讲话",
+      "source": "美联储",
+      "title": "巴尔：AI投资回报若偏离预期，可能引发显著重估",
+      "summary": "美联储理事巴尔表示，即便AI最终显著提高生产率，投资回报能否按市场预期的时间和规模兑现，仍是金融稳定的重要问题。他在讲话中讨论AI投资融资、金融市场使用、网络安全和消费者保护，同时肯定AI提升金融服务能力及降低成本的长期潜力。",
+      "url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+      "topic": "industry",
+      "importance": 830
+    }
+  ]
+}
